@@ -19,7 +19,7 @@ class Employee {
     public double calculateMonthlySalary() {
         double tax = monthlyBaseSalary * 0.08; // Salud y pension
         double transportAllowance = 162000; // Auxilio de trasporte
-        double bonusAmount = monthlyBaseSalary * bonusPercentage; // Bonus amount
+        double bonusAmount = monthlyBaseSalary * bonusPercentage; // total del bonus
         return monthlyBaseSalary - tax + transportAllowance + bonusAmount;
     }
 
